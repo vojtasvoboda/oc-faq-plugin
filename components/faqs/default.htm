@@ -1,0 +1,22 @@
+<div class="panel-group" id="accordion">
+
+    {% for item in __SELF__.items %}
+    <div class="item">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ item.id }}">
+                        {{ item.name }}
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse-{{ item.id }}" class="panel-collapse collapse">
+                <div class="panel-body">
+                    {{ item.text | raw }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>

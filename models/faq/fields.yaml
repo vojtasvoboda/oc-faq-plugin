@@ -1,0 +1,14 @@
+fields:
+    name:
+        label: Otázka
+        span: full
+        type: text
+    text:
+        label: Odpověď
+        size: large
+        span: full
+        type: richeditor
+    enabled:
+        label: Zobrazit
+        span: full
+        type: checkbox

@@ -1,0 +1,21 @@
+columns:
+    name:
+        label: Název
+        type: text
+        searchable: true
+        sortable: true
+    sort_order:
+        label: Pořadí
+        type: text
+    enabled:
+        label: Zobrazit
+        type: switch
+        sortable: true
+    created_at:
+        label: Vytvořeno
+        type: timetense
+        sortable: true
+    updated_at:
+        label: Upraveno
+        type: timetense
+        sortable: true

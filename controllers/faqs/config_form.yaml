@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Faq
+
+# Model Form Field configuration
+form: $/vojtasvoboda/faq/models/faq/fields.yaml
+
+# Model Class name
+modelClass: VojtaSvoboda\Faq\Models\Faq
+
+# Default redirect location
+defaultRedirect: vojtasvoboda/faq/faqs
+
+# Create page
+create:
+    title: Create Faq
+    redirect: vojtasvoboda/faq/faqs/update/:id
+    redirectClose: vojtasvoboda/faq/faqs
+
+# Update page
+update:
+    title: Edit Faq
+    redirect: vojtasvoboda/faq/faqs
+    redirectClose: vojtasvoboda/faq/faqs
+
+# Preview page
+preview:
+    title: Preview Faq

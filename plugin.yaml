@@ -1,0 +1,13 @@
+plugin:
+    name: 'vojtasvoboda.faq::lang.plugin.name'
+    description: 'vojtasvoboda.faq::lang.plugin.description'
+    author: 'Vojta Svoboda'
+    icon: 'icon-comments'
+    homepage: ''
+permissions:
+    vojtasvoboda.faq.faqs:
+        tab: 'Správa FAQ'
+        label: 'Správa otázek'
+    vojtasvoboda.faq.proposals:
+        tab: 'Správa FAQ'
+        label: 'Správa námětů'
