@@ -20,7 +20,7 @@ class Faqs extends Controller
     public $reorderConfig = 'config_reorder.yaml';
 
     public $requiredPermissions = [
-        'vojtasvoboda.faq.faqs'
+        'vojtasvoboda.faq.faqs',
     ];
 
     public function __construct()

@@ -8,7 +8,7 @@ class Plugin extends PluginBase
     public function registerNavigation()
     {
         return [
-            'partners' => [
+            'faq' => [
                 'label' => 'FAQ',
                 'url' => Backend::url('vojtasvoboda/faq/faqs'),
                 'icon' => 'oc-icon-comments-o',
