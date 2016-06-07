@@ -1,0 +1,12 @@
+%YAML 1.1
+---
+# vojtasvoboda_faq_faqs
+-
+  name: "First question"
+  text: "<p>First answer</p>"
+  enabled: 1
+-
+  name: "Second question"
+  text: "<p>Second answer</p>"
+  enabled: 1
+...

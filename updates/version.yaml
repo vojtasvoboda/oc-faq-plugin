@@ -1,3 +1,4 @@
 1.0.1:
     - Initialize plugin.
     - create_faqs_table.php
+    - seed_faqs_table.php
