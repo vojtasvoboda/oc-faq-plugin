@@ -1,0 +1,20 @@
+{
+    "name": "vojtasvoboda/oc-faq-plugin",
+    "type": "october-plugin",
+    "description": "Faq plugin for OctoberCMS",
+    "homepage": "https://github.com/vojtasvoboda/oc-faq-plugin",
+    "keywords": ["october", "plugin", "faq"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vojta Svoboda",
+            "email": "vojtasvoboda.cz@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "minimum-stability": "dev"
+}
