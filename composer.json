@@ -1,6 +1,9 @@
 {
     "name": "vojtasvoboda/oc-faq-plugin",
     "type": "october-plugin",
+    "extra": {
+        "installer-name": "faq"
+    },
     "description": "Faq plugin for OctoberCMS",
     "homepage": "https://github.com/vojtasvoboda/oc-faq-plugin",
     "keywords": ["october", "plugin", "faq"],
