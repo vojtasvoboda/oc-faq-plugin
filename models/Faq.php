@@ -13,6 +13,8 @@ class Faq extends Model
 
     use ValidationTrait;
 
+	public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
+
     public $table = 'vojtasvoboda_faq_faqs';
 
     public $rules = [
@@ -20,6 +22,8 @@ class Faq extends Model
         'text' => 'required|max:1000',
         'enabled' => 'boolean',
     ];
+
+	public $translatable = ['name', 'text'];
 
     public $attributeNames = [
         'name' => 'Otázka',
